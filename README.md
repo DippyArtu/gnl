@@ -14,7 +14,9 @@ argument or stdin untill the EoF (ctrl + D) signal is sent.
 **to prevent memory leaks, the user must free(line) after each call to _get_next_line_**
 
 > the function returns 1 if a line has been read
+
 > the function returns 0 if a file has been read (EoF)
+
 > the function returns -1 on error
 
 ### the prototype is as follows:
@@ -39,3 +41,5 @@ to run use `./test_gnl *read*` or `./test_gnl` to read from stdin
 
 proud to say that the code has NO memory leaks
 to clean up the library files, run `cd ./libft && make clean`
+
+sadly, had to rewrite it using a static array to store the data instead of lists (which would be prefered), but 
