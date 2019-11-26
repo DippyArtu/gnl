@@ -42,4 +42,4 @@ to run use `./test_gnl *read*` or `./test_gnl` to read from stdin
 proud to say that the code has NO memory leaks
 to clean up the library files, run `cd ./libft && make clean`
 
-sadly, had to rewrite it using a static array to store the data instead of lists (which would be prefered), but 
+sadly, had to rewrite it using a static array to store the data instead of using lists (which would be prefered), due to some Moulinette error I wasn't able to figure out how to solve, but this implemintation works pretty good too.
