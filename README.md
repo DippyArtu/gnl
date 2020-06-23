@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="get_next_line">get_next_line</h1>
+<h1 id="get_next_line">Get_next_line</h1>
 <h3 id="gnl-is-a-reimplementation-of-the-get_line-function">Gnl is a reimplementation of the <code>get_line()</code> function</h3>
 <p>This function reads one line at a time from a given file descriptor, writes this line<br>
 into a dynamically allocated memory area and returns a pointer to this area.</p>
