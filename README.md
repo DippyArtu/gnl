@@ -31,4 +31,4 @@ into a dynamically allocated memory area and returns a pointer to this area.</p>
 This will <em>make</em>, <em>link</em> the library and will produce <em>test_gnl</em> executable file.<br>
 to run use <code>./gnl_test *read*</code> or <code>./gnl_test</code> to read from stdin</p>
 <p>To use the function in the program, call it according to its prototype.</p>
-
+ii
