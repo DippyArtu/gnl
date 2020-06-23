@@ -29,6 +29,6 @@ into a dynamically allocated memory area and returns a pointer to this area.</p>
 <h2 id="usage">Usage</h2>
 <p>To test the code, run <code>sh compile.sh</code>.<br>
 This will <em>make</em>, <em>link</em> the library and will produce <em>test_gnl</em> executable file.<br>
-to run use <code>./test_gnl *read*</code> or <code>./test_gnl</code> to read from stdin</p>
+to run use <code>./gnl_test *read*</code> or <code>./gnl_test</code> to read from stdin</p>
 <p>To use the function in the program, call it according to its prototype.</p>
 
